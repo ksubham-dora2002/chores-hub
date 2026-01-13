@@ -1,0 +1,56 @@
+.home {
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  line-height: var(--lh-xxs);
+  color: var(--co-primary-800);
+  font-size: var(--fs-xx-small);
+  transform: var(--transition-default);
+}
+
+.home__cards {
+  width: 100%;
+  display: flex;
+  min-height: 500px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transform: var(--transition-default);
+}
+
+@media screen and (width >= 768px) {
+  .home {
+    font-size: var(--fs-small);
+  }
+
+  .home__cards {
+    display: grid;
+    gap: 10px;
+    padding: 0 10px;
+    align-items: start;
+    grid-auto-flow: column;
+    justify-content: start;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  .home-card--task {
+    grid-column: 2;
+  }
+
+  .home-card--shopping {
+    grid-column: 3;
+  }
+
+  .home-card--notification {
+    grid-column: 1;
+  }
+}
+
+@media screen and (width >= 1020px) {
+  .home {
+    padding: 0 100px;
+  }
+}

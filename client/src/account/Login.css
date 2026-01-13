@@ -1,0 +1,50 @@
+.auth__card {
+  display: grid !important;
+  grid: 70px 130px repeat(2, 24px) / 1fr;
+}
+
+.auth__logo {
+  width: 60px;
+  height: 30px;
+}
+
+.auth__form {
+  grid: repeat(3, 40px) / 1fr;
+}
+
+.auth__link--register,
+.auth__link--reset {
+  text-align: center;
+}
+
+.auth__link--text:hover {
+  text-decoration: underline;
+  color: var(--co-secondary-550);
+}
+
+@media screen and (width >= 768px) {
+  .auth__card {
+    grid: 70px 150px repeat(2, 40px) / 1fr;
+    margin-bottom: 10px;
+  }
+
+  .auth__logo {
+    width: 80px;
+    height: 40px;
+    margin-top: 40px;
+  }
+
+  .auth__form {
+    margin-top: 40px;
+  }
+
+  .auth__link--text {
+    padding-top: 10px;
+  }
+}
+
+@media screen and (width >= 1020px) {
+  .auth__form-btn {
+    width: var(--btn-w-ml) !important;
+  }
+}

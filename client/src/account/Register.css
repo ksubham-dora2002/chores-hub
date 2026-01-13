@@ -1,0 +1,30 @@
+.auth__logo--register {
+  width: 85px;
+  height: 40px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.auth__form--register {
+  padding: 0 !important;
+  grid: repeat(5, 40px) 30px / 1fr !important;
+  height: 100%;
+}
+
+.auth__form-btn--register {
+  width: var(--btn-w-sm) !important;
+}
+
+@media screen and (width >= 768px) {
+  .auth__logo--register {
+    width: 125px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 2.5rem;
+  }
+  .auth__form--register{
+    gap: .4rem;
+  }
+  .auth__form-btn--register {
+    width: var(--btn-w-ml) !important;
+  }
+}

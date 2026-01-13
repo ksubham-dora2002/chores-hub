@@ -1,0 +1,12 @@
+.error {
+  width: 100%;
+  flex-grow: 1;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error__title {
+  color: var(--co-secondary-550);
+}

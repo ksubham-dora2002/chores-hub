@@ -1,0 +1,36 @@
+.not-authenticated,
+.authenticated {
+  width: 100%;
+  min-height: 100vh;
+}
+.not-authenticated {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background: url("/chores_bg.png") no-repeat center center fixed;
+}
+
+.authenticated {
+  display: grid;
+  grid-template-rows: 70px 1fr 40px;
+  background-color: var(--co-neutral-100);
+}
+
+.loading {
+  text-align: center;
+  font-size: var(--fw-bold);
+  color: var(--co-primary-800);
+}
+
+@media screen and (width >= 768px) {
+  .authenticated {
+    grid-template-rows: 65px 1fr 40px;
+  }
+}
+
+@media screen and (width >= 1020px) {
+  .authenticated {
+    grid-template-rows: 70px 1fr 40px;
+  }
+}

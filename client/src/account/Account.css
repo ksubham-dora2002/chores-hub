@@ -1,0 +1,170 @@
+.account {
+  width: 100%;
+  flex-grow: 1;
+  display: grid;
+  min-height: 480px;
+  grid: 1fr / 130px 1fr;
+  color: var(--co-primary-800);
+  font-size: var(--fs-xx-small);
+}
+
+.account__sidebar {
+  height: 100%;
+  display: grid;
+  max-width: 130px;
+  min-width: 130px;
+  grid: 120px 80% / 1fr;
+  box-shadow: var(--shadow-4);
+  transition: var(--transition-fast);
+}
+
+.account__user {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  min-height: 120px;
+  max-height: 120px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid var(--co-neutral-250);
+}
+
+.account__avatar-box {
+  width: 70px;
+  display: flex;
+  min-height: 70px;
+  max-height: 70px;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+  border: 2px solid var(--co-secondary-550);
+}
+
+.account__avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-full);
+}
+
+.account__user-name {
+  margin-top: 10px;
+  font-weight: var(--fw-x-bold);
+  font-size: var(--fs-xx-small);
+}
+
+.account__nav {
+  width: 100%;
+  display: grid;
+  min-height: 250px;
+  grid: repeat(7, 40px) / 1fr;
+}
+
+.account__nav-item {
+  display: flex;
+  max-height: 40px;
+  padding-left: 10px;
+  align-items: center;
+  justify-content: left;
+  border-bottom: 1px solid var(--co-neutral-250);
+}
+
+.btn-link {
+  font-size: inherit;
+}
+
+.account__nav-item:hover .account__nav-link {
+  cursor: pointer;
+  color: var(--co-secondary-550);
+  font-weight: var(--fw-bold);
+}
+
+.material-symbols-rounded {
+  margin-right: 5px;
+}
+
+@media screen and (width >= 768px) {
+  .account {
+    min-height: 560px;
+    grid: 1fr / 256px 1fr;
+    font-size: var(--fs-x-small);
+  }
+
+  .account__sidebar {
+    gap: 0;
+    max-width: 260px;
+    min-width: 260px;
+    grid: 180px 70% / 1fr;
+  }
+
+  .account__user {
+    max-height: 100%;
+    min-height: 180px;
+  }
+
+  .account__avatar-box {
+    width: 110px;
+    min-height: 110px;
+    max-height: 110px;
+  }
+
+  .account__user-name {
+    font-size: var(--fs-base);
+  }
+
+  .account__nav {
+    grid: repeat(7, 45px) / 1fr;
+  }
+
+  .account__nav-item {
+    padding-left: 1rem;
+    max-height: 45px;
+  }
+
+  #account__nav-icon {
+    font-size: var(--fs-medium);
+  }
+}
+
+@media screen and (width >= 1020px) {
+  .account {
+    font-size: var(--fs-small);
+    grid: 1fr / 320px 1fr;
+    min-height: 700px;
+  }
+
+  .account__sidebar {
+    max-width: 320px;
+    min-width: 320px;
+    grid: 200px 60% / 1fr;
+  }
+
+  .account__user {
+    max-height: 100%;
+    min-height: 200px;
+  }
+
+  .account__avatar-box {
+    width: 120px;
+    min-height: 120px;
+    max-height: 120px;
+  }
+
+  .account__user-name {
+    font-size: var(--fs-large);
+  }
+
+  .account__nav {
+    grid: repeat(7, 50px) / 1fr;
+  }
+
+  .account__nav-item {
+    padding-left: 25px;
+    max-height: 50px;
+  }
+
+  #account__nav-icon {
+    margin-right: 0.8rem;
+    font-size: var(--fs-large);
+  }
+}

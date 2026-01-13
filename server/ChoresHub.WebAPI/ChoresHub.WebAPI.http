@@ -1,0 +1,6 @@
+@ChoresHub.WebAPI_HostAddress = http://localhost:5058
+
+GET {{ChoresHub.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

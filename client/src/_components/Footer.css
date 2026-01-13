@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--fs-x-small);
+    color: var(--co-neutral-100);
+    background-color: var(--co-primary-800);
+}
+.footer__link{
+    color: var(--co-neutral-100);
+}
+.footer__link:hover{
+    text-decoration: underline;
+    font-weight: var(--fw-bold);
+    color: var(--co-secondary-550);
+}
+@media (width >= 1020px) {
+    .footer{
+        height: 60px;
+        font-size: var(--fs-small);
+    }
+}

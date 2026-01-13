@@ -1,0 +1,48 @@
+.account-card--delete {
+  height: 200px;
+}
+
+.account-card__body {
+  height: 100%;
+  display: grid;
+  width: inherit;
+  align-items: center;
+  justify-content: center;
+  grid: repeat(3, 1fr) 56px / 1fr;
+  padding-bottom: 5px;
+  gap: 10px;
+}
+
+.account-card__title {
+  margin-bottom: 8px;
+}
+
+.account-card__warning {
+  color: var(--co-secondary-500);
+}
+
+.account-card--delete__form-input {
+  margin: 5px;
+}
+
+.account-card--delete__form-btn {
+  margin-top: 5px;
+  margin-right: 0;
+}
+
+@media screen and (width >= 1020px) {
+  .account-card__body {
+    grid: repeat(3, 40px) 56px / 1fr;
+  }
+  .account-card--delete {
+    height: 240px !important;
+    font-size: var(--fs-small);
+  }
+  .account-card--delete__form-input {
+    margin: 10px 15px;
+    width: 200px !important;
+  }
+  .account-card--delete__form-btn {
+    width: var(--btn-w-ml) !important;
+  }
+}
